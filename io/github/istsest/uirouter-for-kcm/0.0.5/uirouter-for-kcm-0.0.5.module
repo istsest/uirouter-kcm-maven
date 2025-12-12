@@ -1,0 +1,362 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.istsest",
+    "module": "uirouter-for-kcm",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uirouter-for-kcm-metadata-0.0.5.jar",
+          "url": "uirouter-for-kcm-0.0.5.jar",
+          "size": 11004,
+          "sha512": "ac0db5ee402ee323026cf21cc9211eaa63ba30f77ecfd9325a7d0b66591bbaa6c9676024319e7b7e6cd93dd74a502751cde4a2467ca7ccdbc6a074bbf8494dfe",
+          "sha256": "7213dc6ac5521c1b1fbc787f23eec54828e6c674b11fbab019e242399231f7d4",
+          "sha1": "c557052a2e7800c016627c26b5d31bab8c8e86fe",
+          "md5": "0ff80d0b691126cd1485f51e7dfcbfb0"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "uirouter-for-kcm-kotlin-0.0.5-sources.jar",
+          "url": "uirouter-for-kcm-0.0.5-sources.jar",
+          "size": 11935,
+          "sha512": "314f7c3029770b596aad969697f336351d9cfa538865345d400e372d537777fe8ae732e59bd071c998bd8bb720fa2de097c4801ca77e0308e3bef2258935435f",
+          "sha256": "debb1c02be321486b17565b5151ef6ce4d2573e46b27c41a8049780e1d606a32",
+          "sha1": "a22118ebfc5f02bff55960a7758b113aa1b4332e",
+          "md5": "c7e7ece68df913290c464059a52b9348"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-android/0.0.5/uirouter-for-kcm-android-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-android/0.0.5/uirouter-for-kcm-android-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-android/0.0.5/uirouter-for-kcm-android-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-android",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosarm64/0.0.5/uirouter-for-kcm-iosarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosarm64/0.0.5/uirouter-for-kcm-iosarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosarm64/0.0.5/uirouter-for-kcm-iosarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosarm64/0.0.5/uirouter-for-kcm-iosarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iossimulatorarm64/0.0.5/uirouter-for-kcm-iossimulatorarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iossimulatorarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iossimulatorarm64/0.0.5/uirouter-for-kcm-iossimulatorarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iossimulatorarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iossimulatorarm64/0.0.5/uirouter-for-kcm-iossimulatorarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iossimulatorarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iossimulatorarm64/0.0.5/uirouter-for-kcm-iossimulatorarm64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iossimulatorarm64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosx64/0.0.5/uirouter-for-kcm-iosx64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosx64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosx64/0.0.5/uirouter-for-kcm-iosx64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosx64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosx64/0.0.5/uirouter-for-kcm-iosx64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosx64",
+        "version": "0.0.5"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uirouter-for-kcm-iosx64/0.0.5/uirouter-for-kcm-iosx64-0.0.5.module",
+        "group": "io.github.istsest",
+        "module": "uirouter-for-kcm-iosx64",
+        "version": "0.0.5"
+      }
+    }
+  ]
+}
