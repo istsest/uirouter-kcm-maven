@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>io.github.istsest</groupId>
-  <artifactId>uirouter-for-kcm</artifactId>
+  <artifactId>uirouter-for-kcm-iosx64</artifactId>
   <versioning>
     <latest>0.0.5</latest>
     <release>0.0.5</release>

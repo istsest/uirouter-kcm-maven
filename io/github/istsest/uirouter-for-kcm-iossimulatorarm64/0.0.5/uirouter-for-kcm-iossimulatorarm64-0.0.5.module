@@ -1,0 +1,241 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../uirouter-for-kcm/0.0.5/uirouter-for-kcm-0.0.5.module",
+    "group": "io.github.istsest",
+    "module": "uirouter-for-kcm",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uirouter-for-kcm-iosSimulatorArm64Main-0.0.5.klib",
+          "url": "uirouter-for-kcm-iossimulatorarm64-0.0.5.klib",
+          "size": 78829,
+          "sha512": "9a5281cbdcc4a9cfb424d40278c785bbf1bf527c543ba63ea8243809961b5c5c40dabf9129e45fdafd27ee2f10785de6174c7d5ff97ab476ecc64c332cfa9e19",
+          "sha256": "5336df273b6388f4e34069c07c1ba864a2e722be63de7a41afa49e8e0c5b1c1a",
+          "sha1": "cca4c9b868be13c227331bfeb20be45be94aa38b",
+          "md5": "54ca9d7c34c39a3f3162b5d5f4be101f"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "uirouter-for-kcm-iossimulatorarm64-0.0.5-sources.jar",
+          "url": "uirouter-for-kcm-iossimulatorarm64-0.0.5-sources.jar",
+          "size": 13735,
+          "sha512": "977613b487bf0ab306dbea84d982d1b67f3188060d8e93e173294c9b2901cd4d45b251f996a953b615a917f1b31f655d316add599d7a8d9cbfece8746511f287",
+          "sha256": "674d36bb646a64deb137cf13ffd632676075e5182eb94aee574aacff88dc3607",
+          "sha1": "2501bbac0a18929d2e484637b30f0ecf6bb72bfb",
+          "md5": "65a522179e39f96999e9cb3981e1a9ed"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uirouter-for-kcm-0.0.5.kotlin_resources.zip",
+          "url": "uirouter-for-kcm-iossimulatorarm64-0.0.5-kotlin_resources.kotlin_resources.zip",
+          "size": 356,
+          "sha512": "a91adcac8834424e10f5709d4697b172936728cdddaf9916d4dea527697b68103d4e4558cb42f7ae37e00308538bf22f717b06a8c91d1e916e04fa7451a3758b",
+          "sha256": "cfc48b17dc966542ef61c5c954abb800e6ee59707ac0b897bd76b2f1c8e1aa5c",
+          "sha1": "dfd609eab40e54270dcfa338a4b254146930a368",
+          "md5": "06b0c127622bbb93923bd78ec4c98069"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uirouter-for-kcm-iossimulatorarm64-0.0.5-metadata.jar",
+          "url": "uirouter-for-kcm-iossimulatorarm64-0.0.5-metadata.jar",
+          "size": 261,
+          "sha512": "3cb6003a7c9b0d89758f3d6fca7775200e01b1314ab36413d4885c3d694b8c2d6926b9943eca933574f89532e012184fea15ff35ac4f8cc4c537cee716adc1f6",
+          "sha256": "3c554c8cce58c24ff44764e7c515969a9326ecaa3b9b2136de3c980d67e2a200",
+          "sha1": "77db5e8a9cd69d674ab050acb9ae73a20e9f959f",
+          "md5": "b23deedd3021d84795df464b3a65ba76"
+        }
+      ]
+    }
+  ]
+}
